@@ -1,0 +1,247 @@
+$date
+	Mon Nov 23 01:57:07 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module FSM_tb $end
+$var wire 2 ! state [1:0] $end
+$var reg 1 " brake $end
+$var reg 1 # clk $end
+$var reg 1 $ lock $end
+$var reg 1 % rst $end
+$scope module uut $end
+$var wire 1 " brake $end
+$var wire 1 # clk $end
+$var wire 1 $ lock $end
+$var wire 1 % rst $end
+$var parameter 2 & S0 $end
+$var parameter 2 ' S1 $end
+$var parameter 2 ( S2 $end
+$var parameter 2 ) S3 $end
+$var reg 2 * next_state [1:0] $end
+$var reg 2 + state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 )
+b10 (
+b1 '
+b0 &
+$end
+#0
+$dumpvars
+b0 +
+b0 *
+1%
+0$
+0#
+0"
+b0 !
+$end
+#5000
+1#
+#10000
+0#
+0%
+#15000
+1#
+#20000
+b1 *
+0#
+1"
+#25000
+b1 !
+b1 +
+1#
+#30000
+b0 *
+0#
+0"
+#35000
+b0 !
+b0 +
+1#
+#40000
+b1 *
+0#
+1"
+#45000
+b1 !
+b1 +
+1#
+#50000
+0#
+#55000
+1#
+#60000
+b10 *
+0#
+1$
+#65000
+b10 !
+b10 +
+1#
+#70000
+b0 *
+0#
+0"
+#75000
+b0 !
+b0 +
+1#
+#80000
+b1 *
+0#
+1"
+#85000
+b10 *
+b1 !
+b1 +
+1#
+#90000
+0#
+#95000
+b10 !
+b10 +
+1#
+#100000
+b11 *
+0#
+0$
+#105000
+b1 *
+b11 !
+b11 +
+1#
+#110000
+b0 *
+0#
+0"
+#115000
+b0 !
+b0 +
+1#
+#120000
+b1 *
+0#
+1"
+#125000
+b1 !
+b1 +
+1#
+#130000
+b10 *
+0#
+1$
+#135000
+b10 !
+b10 +
+1#
+#140000
+0#
+#145000
+1#
+#150000
+b0 *
+0#
+0"
+#155000
+b0 !
+b0 +
+1#
+#160000
+b1 *
+0#
+1"
+#165000
+b10 *
+b1 !
+b1 +
+1#
+#170000
+0#
+#175000
+b10 !
+b10 +
+1#
+#180000
+b11 *
+0#
+0$
+#185000
+b1 *
+b11 !
+b11 +
+1#
+#190000
+b0 *
+0#
+0"
+#195000
+b0 !
+b0 +
+1#
+#200000
+b1 *
+0#
+1"
+#205000
+b1 !
+b1 +
+1#
+#210000
+b10 *
+0#
+1$
+#215000
+b10 !
+b10 +
+1#
+#220000
+b11 *
+0#
+0$
+#225000
+b1 *
+b11 !
+b11 +
+1#
+#230000
+0#
+#235000
+b1 !
+b1 +
+1#
+#240000
+b10 *
+0#
+1$
+#245000
+b10 !
+b10 +
+1#
+#250000
+b11 *
+0#
+0$
+#255000
+b1 *
+b11 !
+b11 +
+1#
+#260000
+b10 *
+0#
+1$
+#265000
+b10 !
+b10 +
+1#
+#270000
+0#
